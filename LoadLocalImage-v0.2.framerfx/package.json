@@ -1,0 +1,18 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0 || ^1.0.0-beta",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "07a3fa34-bbc9-474c-be60-5bbc9bf6cc33"
+	},
+	"author": "Lyu Jie",
+	"dependencies": {
+		"react-file-reader": "^1.1.4"
+	}
+}

@@ -1,0 +1,73 @@
+{
+  "root" : {
+    "__class" : "RootNode",
+    "children" : [
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/Load_Local_Image.tsx_LoadLocalImage",
+        "codeComponentProps" : {
+          "file" : "https:\/\/gw.alicdn.com\/tfs\/TB1UQlmkNTpK1RjSZFMXXbG_VXa-33-54.png"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 200,
+        "heightType" : 0,
+        "id" : "wIwsHR5fq",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 566,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "wh0nBzOsQ",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 170,
+        "visible" : true,
+        "width" : 200,
+        "widthType" : 0
+      }
+    ],
+    "id" : "wh0nBzOsQ",
+    "name" : null,
+    "originalid" : null,
+    "parentid" : null,
+    "visible" : false
+  },
+  "version" : 48
+}

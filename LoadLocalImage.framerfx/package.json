@@ -1,0 +1,21 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "2099da4c-2841-48ca-b8f9-9c0acf85660b",
+		"displayName": "Load Local Image"
+	},
+	"author": "Lyu Jie",
+	"name": "@framer/baikong.load-local-image",
+	"version": "1.0.0",
+	"dependencies": {
+		"react-file-reader": "file:node_modules/react-file-reader"
+	}
+}
