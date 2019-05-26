@@ -9,10 +9,11 @@ interface Props {
     fontWeight: string
     color: string
     style: string
+    textDecoration: string
     alignItems: string
     justifyContent: string
     spacing: number
-    line: number
+    lineHeight: number
     align: string
     width: number
     height: number
@@ -42,9 +43,10 @@ export function CustomFont(props) {
                 fontFamily: props.fontFamily,
                 fontWeight: props.fontWeight,
                 fontStyle: props.style,
+                textDecoration: props.textDecoration,
                 letterSpacing: `${props.spacing + 0.0001}px`,
                 paddingLeft: props.spacing,
-                lineHeight: props.line,
+                lineHeight: props.lineHeight,
                 textAlign: props.align as
                     | "left"
                     | "center"
@@ -73,17 +75,18 @@ export function CustomFont(props) {
 }
 
 CustomFont.defaultProps = {
-    text: "测试文本",
+    text: "Test Text",
     fontFamily:
         "'PingFang SC', miui, system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif",
     fontWeight: "400",
     size: 14,
     color: "#333",
     style: "normal",
+    textDecoration: "none",
     alignItems: "flex-start",
     justifyContent: "center",
     spacing: 0,
-    line: 1.45,
+    lineHeight: 1.45,
     align: "left",
     lineClamp: 1,
     textOverflow: "ellipsis",
@@ -92,64 +95,70 @@ CustomFont.defaultProps = {
 }
 
 addPropertyControls(CustomFont, {
-    text: { type: ControlType.String, title: "文本" },
-    fontFamily: { type: ControlType.String, title: "字体" },
-    color: { type: ControlType.Color, title: "文字颜色" },
-    size: { type: ControlType.Number, title: "文字大小", min: 0, max: 500 },
+    text: { type: ControlType.String, title: "Text" },
+    fontFamily: { type: ControlType.String, title: "FontFaimly" },
+    color: { type: ControlType.Color, title: "Color" },
+    size: { type: ControlType.Number, title: "Size", min: 0, max: 500 },
     fontWeight: {
         type: ControlType.Enum,
         defaultValue: "400",
-        title: "字重",
+        title: "FontWeight",
         options: ["100", "200", "300", "400", "500", "600", "700", "800"],
     },
     style: {
         type: ControlType.Enum,
-        title: "样式",
+        title: "Style",
         options: ["normal", "italic", "oblique"],
-        optionTitles: ["默认", "斜体", "倾斜"],
+        optionTitles: ["normal", "italic", "oblique"],
+    },
+    textDecoration: {
+        type: ControlType.Enum,
+        title: "Decoration",
+        options: ["none", "underline", "overline", "line-through"],
+        optionTitles: ["none", "underline", "overline", "line-through"],
     },
     alignItems: {
         type: ControlType.Enum,
-        title: "水平对齐",
+        title: "AlignItems",
         options: ["flex-start", "center", "flex-end", "baseline"],
-        optionTitles: ["左对齐", "居中", "右对齐", "基线对齐"],
+        optionTitles: ["flex-start", "center", "flex-end", "baseline"],
     },
     justifyContent: {
         type: ControlType.Enum,
-        title: "垂直对齐",
+        title: "JustifyContent",
         options: ["flex-start", "center", "flex-end"],
-        optionTitles: ["顶对齐", "居中", "底对齐"],
+        optionTitles: ["flex-start", "center", "flex-end"],
     },
     align: {
         type: ControlType.Enum,
-        title: "文字对齐",
+        title: "Align",
         options: ["left", "center", "right", "justify", "start", "end"],
-        optionTitles: ["左对齐", "居中", "右对齐", "两端对齐", "Start", "End"],
+        optionTitles: ["left", "center", "right", "justify", "start", "end"],
     },
     spacing: {
         type: ControlType.Number,
-        title: "字间距",
+        title: "Spacing",
         min: -30,
         max: 30,
         step: 0.1,
     },
-    line: {
+    lineHeight: {
         type: ControlType.Number,
-        title: "行高",
+        title: "LineHeight",
         min: 0,
         max: 5,
         step: 0.1,
     },
     lineClamp: {
         type: ControlType.Number,
-        title: "最大行数",
+        title: "LineClamp",
         min: 0,
         step: 1,
     },
     textOverflow: {
         type: ControlType.Enum,
-        title: "超出裁切",
+        title: "TextOverflow",
         options: ["ellipsis", "clip"],
-        optionTitles: ["省略号", "裁切"],
+        optionTitles: ["ellipsis", "clip"],
     },
 })
