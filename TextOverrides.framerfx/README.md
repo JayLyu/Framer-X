@@ -1,6 +1,6 @@
 Based on Benjamin den Boer's Web Fonts Component adjustment, support for text overflow "..." , suitable for Chinese interface design.
 
-基于 Benjamin den Boer 的 Web Fonts 调整，支持文本超出显示“…”，适合中文界面设计。
+基于 Benjamin den Boer 的 Web Fonts 调整，支持文本超出显示“…”，适合中文界面设计时使用。
 
 | Property | Type | Description | 描述 | Default |
 | --- | --- | --- | --- | --- |

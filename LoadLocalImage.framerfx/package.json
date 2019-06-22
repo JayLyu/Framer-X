@@ -14,7 +14,7 @@
 	},
 	"author": "Lyu Jie",
 	"name": "@framer/baikong.load-local-image",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"dependencies": {
 		"react-file-reader": "file:node_modules/react-file-reader"
 	}

@@ -1,84 +1,51 @@
 import * as React from "react"
 import { Frame, addPropertyControls, ControlType } from "framer"
 
-type Props = {
-    image: string
-}
-type State = {
-    image: string
-    // uploadImage: string
-}
+const GrayImage =
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAW1JREFUeAHt01ENACAMxFDAv8C5gQQV/XhT0LS7PTN3uYyBkyEB8g0IEnsEQQSJGYjhWIggMQMxHAsRJGYghmMhgsQMxHAsRJCYgRiOhQgSMxDDsRBBYgZiOBYiSMxADMdCBIkZiOFYiCAxAzEcCxEkZiCGYyGCxAzEcCxEkJiBGI6FCBIzEMOxEEFiBmI4FiJIzEAMx0IEiRmI4ViIIDEDMRwLESRmIIZjIYLEDMRwLESQmIEYjoUIEjMQw7EQQWIGYjgWIkjMQAzHQgSJGYjhWIggMQMxHAsRJGYghmMhgsQMxHAsRJCYgRiOhQgSMxDDsRBBYgZiOBYiSMxADMdCBIkZiOFYiCAxAzEcCxEkZiCGYyGCxAzEcCxEkJiBGI6FCBIzEMOxEEFiBmI4FiJIzEAMx0IEiRmI4ViIIDEDMRwLESRmIIZjIYLEDMRwLESQmIEYjoUIEjMQw7EQQWIGYjgWIkjMQAzHQmJBHm4eBE9r/MyjAAAAAElFTkSuQmCC"
 
 export class LoadLocalImage extends React.Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
-            image:
-                "https://gw.alicdn.com/tfs/TB1UQlmkNTpK1RjSZFMXXbG_VXa-33-54.png",
-            toggle: false,
+            src: GrayImage,
         }
-
-        this.handleFiles = this.handleFiles.bind(this)
-    }
-
-    handleFiles() {
-        // let input = this.refs.input_reader
-        this.refs.uploadImage.click()
-    }
-
-    handleFileChanged = e => {
-        let self = this
-        let reader = new FileReader()
-        let file = e.target.files[0]
-
-        reader.onload = function(r) {
-            self.setState({
-                image: r.target.result,
-            })
-        }
-        reader.readAsDataURL(file)
+        this.handleChangeFile = this.handleChangeFile.bind(this)
     }
 
     render() {
-        const { accept, capture, multiple } = this.props,
-            { uploadImage, image } = this.state
         return (
-            <Frame background="transparent" size={"100%"}>
-                <img
-                    // ref={uploadImage}
-                    src={image}
-                    height={"100%"}
-                    width={"100%"}
-                    onClick={this.handleFiles}
-                />
+            <label>
                 <input
-                    type="file"
-                    ref="uploadImage"
-                    accept={Array.isArray(accept) ? accept.join(",") : accept}
-                    multiple={multiple}
-                    capture={capture}
                     style={{ display: "none" }}
-                    onChange={this.handleFileChanged}
+                    type="file"
+                    accept="image/*"
+                    onChange={e => this.handleChangeFile(e)}
                 />
-            </Frame>
+                <img
+                    id="test"
+                    ref="image"
+                    height="100%"
+                    width="100%"
+                    src={this.state.src}
+                />
+            </label>
         )
     }
 
-    // 默认类型
-    static defaultProps = {
-        image:
-            "https://gw.alicdn.com/tfs/TB1UQlmkNTpK1RjSZFMXXbG_VXa-33-54.png",
-        accept: "image/*",
-        capture: true,
-        multiple: false,
+    handleChangeFile = e => {
+        let file = e.target.files[0]
+        let preview = this.refs.image
+        let reader = new FileReader()
+        reader.addEventListener(
+            "load",
+            function() {
+                preview.src = reader.result
+            },
+            false
+        )
+        if (file) {
+            reader.readAsDataURL(file)
+        }
     }
 }
-
-// 属性控制
-addPropertyControls(LoadLocalImage, {
-    image: {
-        type: ControlType.String,
-        title: "Image Url",
-        defaultValue: "",
-    },
-})
