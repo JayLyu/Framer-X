@@ -1,0 +1,699 @@
+[2019-07-21 01:02:54.3980] - INFO - Reading from /Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx (origin); preserving existing contents of project folder: true
+[2019-07-21 01:02:54.3990] - INFO - Done reading
+[2019-07-21 01:02:54.3990] - INFO - Marking changed: false
+[2019-07-21 01:02:57.3610] - INFO - Proxy Config: none
+[2019-07-21 01:02:58.2000] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:02:58.2000] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:02:58.2010] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:02:58.2010] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:02:58.2010] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+nfig: none
+[2019-07-21 01:02:58.2000] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:02:58.2000] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:02:58.2010] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:02:58.2010] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:02:58.2010] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:02:58.2010] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:02:58.2010] - ERROR -     at Project.onServerStart (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:983:14)
+[2019-07-21 01:02:58.2010] - ERROR -     at Server.handleServerCommand (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:392:25)
+[2019-07-21 01:02:58.2010] - ERROR -     at Socket.socket.on.info (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:269:31)
+[2019-07-21 01:02:58.2010] - ERROR -     at Socket.emit (events.js:182:13)
+[2019-07-21 01:02:58.2010] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/socket.js:527:12
+[2019-07-21 01:02:58.2010] - ERROR -   errno: -2,
+[2019-07-21 01:02:58.2010] - ERROR -   syscall: 'open',
+[2019-07-21 01:02:58.2010] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:02:58.2010] - ERROR -   path:
+[2019-07-21 01:02:58.2010] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:02:58.2100] - ERROR - Unhandled Rejection at: Promise Promise {
+[2019-07-21 01:02:58.2100] - ERROR -   <rejected> Error: Error updating package.json Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/package.json'
+[2019-07-21 01:02:58.2100] - ERROR -       at Project.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1127:23)
+[2019-07-21 01:02:58.2100] - ERROR -       at Generator.throw (<anonymous>)
+[2019-07-21 01:02:58.2100] - ERROR -       at rejected (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:5:65) } reason: Error: Error updating package.json Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/package.json'
+[2019-07-21 01:02:58.2100] - ERROR -     at Project.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1127:23)
+[2019-07-21 01:02:58.2100] - ERROR -     at Generator.throw (<anonymous>)
+[2019-07-21 01:02:58.2110] - ERROR -     at rejected (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:5:65)
+[2019-07-21 01:02:58.3120] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:02:58.3120] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:02:58.3120] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:02:58.3120] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:02:58.3120] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:02:58.3120] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:02:58.3120] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:02:58.3120] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:02:58.3120] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:02:58.3120] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:02:58.3120] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:02:58.3120] - ERROR -   errno: -2,
+[2019-07-21 01:02:58.3120] - ERROR -   syscall: 'open',
+[2019-07-21 01:02:58.3120] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:02:58.3120] - ERROR -   path:
+[2019-07-21 01:02:58.3120] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:02:58.3850] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (3ms)
+[2019-07-21 01:03:00.3180] - ERROR - Sat, 20 Jul 2019 17:03:00 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer X.app/Contents/Resources/Server/lib/server.js:118:17
+
+[2019-07-21 01:03:43.9700] - INFO - Reading from /Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx (origin); preserving existing contents of project folder: true
+[2019-07-21 01:03:43.9720] - INFO - Done reading
+[2019-07-21 01:03:43.9720] - INFO - Marking changed: false
+[2019-07-21 01:03:44.0650] - INFO - Proxy Config: none
+[2019-07-21 01:03:44.8510] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:44.8510] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:44.8510] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:44.8510] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:44.8510] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:44.8510] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:44.8520] - ERROR -     at Project.onServerStart (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:983:14)
+[2019-07-21 01:03:44.8520] - ERROR -     at Server.handleServerCommand (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:392:25)
+[2019-07-21 01:03:44.8520] - ERROR -     at Socket.socket.on.info (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:269:31)
+[2019-07-21 01:03:44.8520] - ERROR -     at Socket.emit (events.js:182:13)
+[2019-07-21 01:03:44.8520] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/socket.js:527:12
+[2019-07-21 01:03:44.8520] - ERROR -   errno: -2,
+[2019-07-21 01:03:44.8520] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:44.8520] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:44.8520] - ERROR -   path:
+[2019-07-21 01:03:44.8520] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:44.8790] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:44.8790] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:44.8790] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:44.8790] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:44.8790] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:44.8790] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:44.8790] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:44.8790] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:44.8790] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:44.8790] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:44.8790] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:44.8800] - ERROR -   errno: -2,
+[2019-07-21 01:03:44.8800] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:44.8800] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:44.8800] - ERROR -   path:
+[2019-07-21 01:03:44.8800] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:44.8800] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:44.8800] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:44.8800] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:44.8800] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:44.8800] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:44.8800] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:44.8810] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:44.8810] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:44.8810] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:44.8810] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:44.8810] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:44.8810] - ERROR -   errno: -2,
+[2019-07-21 01:03:44.8810] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:44.8810] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:44.8810] - ERROR -   path:
+[2019-07-21 01:03:44.8810] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:45.0040] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:45.0040] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:45.0040] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:45.0040] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:45.0040] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:45.0040] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:45.0040] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:45.0040] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:45.0040] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:45.0040] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:45.0040] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:45.0040] - ERROR -   errno: -2,
+[2019-07-21 01:03:45.0040] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:45.0040] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:45.0040] - ERROR -   path:
+[2019-07-21 01:03:45.0040] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:45.0240] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (3ms)
+[2019-07-21 01:03:45.4980] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:45.4980] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:45.4980] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:45.4980] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:45.4980] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:45.4980] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:45.4980] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:45.4980] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:45.4980] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:45.4980] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:45.4980] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:45.4980] - ERROR -   errno: -2,
+[2019-07-21 01:03:45.4980] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:45.4980] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:45.4980] - ERROR -   path:
+[2019-07-21 01:03:45.4980] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:45.5000] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:45.5000] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:45.5000] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:45.5000] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:45.5000] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:45.5000] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:45.5000] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:45.5000] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:45.5000] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:45.5000] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:45.5000] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:45.5000] - ERROR -   errno: -2,
+[2019-07-21 01:03:45.5000] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:45.5000] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:45.5000] - ERROR -   path:
+[2019-07-21 01:03:45.5000] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.0180] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.0180] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.0180] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.0180] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.0180] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.0180] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.0180] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.0180] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.0180] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.0180] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.0180] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.0180] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.0180] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.0180] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.0180] - ERROR -   path:
+[2019-07-21 01:03:46.0180] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6000] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6000] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6000] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6000] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6000] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6000] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6000] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6000] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6000] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6000] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6000] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6010] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6010] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6010] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6010] - ERROR -   path:
+[2019-07-21 01:03:46.6010] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6060] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6060] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6060] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6060] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6060] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6060] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6060] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6060] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6060] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6060] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6060] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6070] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6070] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6070] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6070] - ERROR -   path:
+[2019-07-21 01:03:46.6070] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6090] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6090] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6090] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6090] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6090] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6090] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6090] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6090] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6090] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6090] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6090] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6090] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6090] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6090] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6090] - ERROR -   path:
+[2019-07-21 01:03:46.6090] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6120] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6120] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6120] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6120] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6120] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6120] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6120] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6120] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6120] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6130] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6130] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6130] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6130] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6130] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6130] - ERROR -   path:
+[2019-07-21 01:03:46.6130] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6140] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6140] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6140] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6140] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6150] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6150] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6150] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6150] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6150] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6150] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6150] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6150] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6150] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6150] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6150] - ERROR -   path:
+[2019-07-21 01:03:46.6150] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6180] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6180] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6180] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6180] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6180] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6180] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6180] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6180] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6190] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6190] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6190] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6190] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6190] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6190] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6190] - ERROR -   path:
+[2019-07-21 01:03:46.6190] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6210] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6210] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6210] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6210] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6210] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6210] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6210] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6210] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6210] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6210] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6210] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6210] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6210] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6210] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6210] - ERROR -   path:
+[2019-07-21 01:03:46.6210] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6230] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6230] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6230] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6230] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6230] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6230] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6230] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6230] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6230] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6230] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6230] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6230] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6230] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6230] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6240] - ERROR -   path:
+[2019-07-21 01:03:46.6240] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6260] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6260] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6260] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6260] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6260] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6260] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6260] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6260] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6260] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6260] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6260] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6260] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6260] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6260] - ERROR -   path:
+[2019-07-21 01:03:46.6260] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6280] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6280] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6280] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6280] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6290] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6290] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6290] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6290] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6290] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6290] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6290] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6290] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6290] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6290] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6290] - ERROR -   path:
+[2019-07-21 01:03:46.6290] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6310] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6310] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6310] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6310] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6310] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6310] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6310] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6320] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6320] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6320] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6320] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6320] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6320] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6320] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6320] - ERROR -   path:
+[2019-07-21 01:03:46.6320] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6330] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6330] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6330] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6330] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6330] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6330] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6330] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6330] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6330] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6330] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6330] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6330] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6340] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6340] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6340] - ERROR -   path:
+[2019-07-21 01:03:46.6340] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6350] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6350] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6350] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6350] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6350] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6350] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6350] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6350] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6350] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6360] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6360] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6360] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6360] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6360] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6360] - ERROR -   path:
+[2019-07-21 01:03:46.6360] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6370] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6370] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6380] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6380] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6380] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6380] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6380] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6380] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6380] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6380] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6380] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6380] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6380] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6380] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6380] - ERROR -   path:
+[2019-07-21 01:03:46.6380] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6400] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6400] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6400] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6400] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6400] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6400] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6400] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6400] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6400] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6400] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6400] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6400] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6400] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6400] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6400] - ERROR -   path:
+[2019-07-21 01:03:46.6400] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6430] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6430] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6430] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6430] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6430] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6430] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6430] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6430] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6430] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6430] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6430] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6430] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6430] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6430] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6430] - ERROR -   path:
+[2019-07-21 01:03:46.6430] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6460] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6460] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6460] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6460] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6460] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6460] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6460] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6460] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6460] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6460] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6460] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6460] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6460] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6460] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6460] - ERROR -   path:
+[2019-07-21 01:03:46.6470] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6480] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6480] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6480] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6480] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6480] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6480] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6480] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6480] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6480] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6490] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6490] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6490] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6490] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6490] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6490] - ERROR -   path:
+[2019-07-21 01:03:46.6490] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6500] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6500] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6500] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6500] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6500] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6510] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6510] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6510] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6510] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6510] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6510] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6510] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6510] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6510] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6510] - ERROR -   path:
+[2019-07-21 01:03:46.6510] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6550] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6550] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6550] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6550] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6550] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6550] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6550] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6550] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6550] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6550] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6550] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6560] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6560] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6560] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6560] - ERROR -   path:
+[2019-07-21 01:03:46.6560] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6570] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6570] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6570] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6570] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6570] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6570] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6570] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6570] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6570] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6580] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6580] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6580] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6580] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6580] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6580] - ERROR -   path:
+[2019-07-21 01:03:46.6580] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6820] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6830] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6830] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6830] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6830] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6830] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6830] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6830] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6830] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6830] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6830] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6830] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6830] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6830] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6830] - ERROR -   path:
+[2019-07-21 01:03:46.6830] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:46.6840] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:46.6840] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:46.6840] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:46.6840] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:46.6840] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:46.6840] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:46.6840] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:46.6840] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:46.6840] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:46.6840] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:46.6850] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:46.6850] - ERROR -   errno: -2,
+[2019-07-21 01:03:46.6850] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:46.6850] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:46.6850] - ERROR -   path:
+[2019-07-21 01:03:46.6850] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:47.0090] - ERROR - Sat, 20 Jul 2019 17:03:47 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer X.app/Contents/Resources/Server/lib/server.js:118:17
+[2019-07-21 01:03:47.7600] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:47.7600] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:47.7600] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:47.7600] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:47.7600] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:47.7600] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:47.7600] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:47.7600] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:47.7610] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:47.7610] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:47.7610] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:47.7610] - ERROR -   errno: -2,
+[2019-07-21 01:03:47.7610] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:47.7610] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:47.7610] - ERROR -   path:
+[2019-07-21 01:03:47.7610] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:47.7750] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:47.7750] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:47.7750] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:47.7750] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:47.7750] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:47.7750] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:47.7750] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:47.7750] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:47.7750] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:47.7750] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:47.7750] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:47.7750] - ERROR -   errno: -2,
+[2019-07-21 01:03:47.7760] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:47.7760] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:47.7760] - ERROR -   path:
+[2019-07-21 01:03:47.7760] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:47.7790] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:47.7790] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:47.7790] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:47.7790] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:47.7790] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:47.7790] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:47.7790] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:47.7790] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:47.7800] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:47.7800] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:47.7800] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:47.7800] - ERROR -   errno: -2,
+[2019-07-21 01:03:47.7800] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:47.7800] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:47.7800] - ERROR -   path:
+[2019-07-21 01:03:47.7800] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:47.7820] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:47.7820] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:47.7820] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:47.7820] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:47.7830] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:47.7830] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:47.7830] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:47.7830] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:47.7830] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:47.7830] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:47.7830] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:47.7830] - ERROR -   errno: -2,
+[2019-07-21 01:03:47.7830] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:47.7830] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:47.7830] - ERROR -   path:
+[2019-07-21 01:03:47.7830] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:48.6250] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:48.6250] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:48.6260] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:48.6260] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:48.6260] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:48.6260] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:48.6260] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:48.6260] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:48.6260] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:48.6260] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:48.6260] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:48.6260] - ERROR -   errno: -2,
+[2019-07-21 01:03:48.6260] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:48.6260] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:48.6260] - ERROR -   path:
+[2019-07-21 01:03:48.6260] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:48.6330] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:48.6330] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:48.6330] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:48.6330] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:48.6330] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:48.6330] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:48.6330] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:48.6330] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:48.6340] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:48.6340] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:48.6340] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:48.6340] - ERROR -   errno: -2,
+[2019-07-21 01:03:48.6340] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:48.6340] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:48.6340] - ERROR -   path:
+[2019-07-21 01:03:48.6340] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:48.6360] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:48.6360] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:48.6360] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:48.6360] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:48.6360] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:48.6360] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:48.6360] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:48.6360] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:48.6360] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:48.6360] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:48.6360] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:48.6360] - ERROR -   errno: -2,
+[2019-07-21 01:03:48.6360] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:48.6360] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:48.6360] - ERROR -   path:
+[2019-07-21 01:03:48.6360] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:48.6370] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:48.6370] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:48.6370] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:48.6370] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:48.6380] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:48.6380] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:48.6380] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:48.6380] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:48.6380] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:48.6380] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:48.6380] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:48.6380] - ERROR -   errno: -2,
+[2019-07-21 01:03:48.6380] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:48.6380] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:48.6380] - ERROR -   path:
+[2019-07-21 01:03:48.6380] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:48.7620] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:48.7620] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:48.7620] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:48.7620] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:48.7620] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:48.7620] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:48.7620] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:48.7620] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:48.7620] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:48.7620] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:48.7620] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:48.7620] - ERROR -   errno: -2,
+[2019-07-21 01:03:48.7620] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:48.7620] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:48.7630] - ERROR -   path:
+[2019-07-21 01:03:48.7630] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+[2019-07-21 01:03:50.6550] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:03:50.6550] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:03:50.6550] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:03:50.6550] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:03:50.6550] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+[2019-07-21 01:03:50.6550] - ERROR -     at Project.sendScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:63:39)
+[2019-07-21 01:03:50.6550] - ERROR -     at Namespace.io.on.socket (/Applications/Framer X.app/Contents/Resources/Server/lib/server.js:279:42)
+[2019-07-21 01:03:50.6550] - ERROR -     at Namespace.emit (events.js:187:15)
+[2019-07-21 01:03:50.6550] - ERROR -     at Namespace.emit (/Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:213:10)
+[2019-07-21 01:03:50.6550] - ERROR -     at /Applications/Framer X.app/Contents/Resources/Server/node_modules/socket.io/lib/namespace.js:180:14
+[2019-07-21 01:03:50.6550] - ERROR -     at process._tickCallback (internal/process/next_tick.js:61:11)
+[2019-07-21 01:03:50.6550] - ERROR -   errno: -2,
+[2019-07-21 01:03:50.6550] - ERROR -   syscall: 'open',
+[2019-07-21 01:03:50.6550] - ERROR -   code: 'ENOENT',
+[2019-07-21 01:03:50.6550] - ERROR -   path:
+[2019-07-21 01:03:50.6560] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }

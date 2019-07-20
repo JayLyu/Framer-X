@@ -1,0 +1,7 @@
+[2019-07-21 01:23:14.1880] - INFO - Reading from /System/Volumes/Data/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallIcon copy2.framerfx (origin); preserving existing contents of project folder: true
+[2019-07-21 01:23:14.1910] - INFO - Done reading
+[2019-07-21 01:23:14.1920] - INFO - Marking changed: false
+[2019-07-21 01:23:14.2310] - INFO - Marking changed: false
+[2019-07-21 01:23:14.2400] - DEBUG - [Save session: 0] Completed super.save
+[2019-07-21 01:23:14.3970] - INFO - Marking changed: false
+[2019-07-21 01:23:14.4270] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (4ms)

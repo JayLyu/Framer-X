@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "bcb24479-56dd-43e8-8f54-e44e80157743",
+		"displayName": "Tmall Icon"
+	},
+	"author": "Lyu Jie",
+	"dependencies": {},
+	"name": "@framer/baikong.tmall-icon",
+	"version": "1.0.0"
+}
