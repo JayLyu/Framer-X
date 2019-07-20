@@ -379,7 +379,7 @@
         "isExternalMaster" : null,
         "isMaster" : false,
         "isTarget" : false,
-        "left" : -348,
+        "left" : -222,
         "locked" : false,
         "name" : "Icon",
         "navigationTarget" : null,
@@ -400,7 +400,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : -677,
+        "top" : -521,
         "visible" : true,
         "width" : 100,
         "widthType" : 0

@@ -288,9 +288,7 @@
             "top" : 64,
             "visible" : true,
             "width" : 297,
-            "widthType" : 0,
-            "x" : 341,
-            "y" : 59
+            "widthType" : 0
           }
         ],
         "clip" : true,
