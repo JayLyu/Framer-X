@@ -16,7 +16,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.5,
+            "centerAnchorY" : 0.47833333333333333,
             "children" : [
 
             ],
@@ -96,7 +96,7 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : null,
+            "top" : 187,
             "visible" : true,
             "width" : 200,
             "widthType" : 0
@@ -342,6 +342,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 600,
         "heightType" : 0,
         "id" : "W37_DbnrE",
@@ -446,6 +452,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 50,
         "heightType" : 0,
         "id" : "g6vqSBiBE",
@@ -481,6 +493,12 @@
         "widthType" : 0
       }
     ],
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
+    ],
     "id" : "Gj7EMqMVI",
     "name" : null,
     "originalid" : null,
@@ -493,5 +511,5 @@
     ],
     "visible" : false
   },
-  "version" : 52
+  "version" : 54
 }

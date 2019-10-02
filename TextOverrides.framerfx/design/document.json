@@ -73,6 +73,12 @@
               "widthFactor" : 0.5
             },
             "fillType" : "image",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 892,
             "heightType" : 0,
             "id" : "FGGsLRnSP",
@@ -166,6 +172,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 1200,
         "heightType" : 0,
         "id" : "ZH0rjrhxA",
@@ -371,6 +383,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 100,
         "heightType" : 0,
         "id" : "HBD4_dGDE",
@@ -406,6 +424,12 @@
         "widthType" : 0
       }
     ],
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
+    ],
     "id" : "H6rT8FxpC",
     "name" : null,
     "originalid" : null,
@@ -418,5 +442,5 @@
     ],
     "visible" : false
   },
-  "version" : 52
+  "version" : 54
 }

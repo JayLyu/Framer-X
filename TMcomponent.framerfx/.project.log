@@ -7,6 +7,18 @@
 [2019-07-21 01:02:58.2010] - ERROR -     at Object.readFileSync (fs.js:341:35)
 [2019-07-21 01:02:58.2010] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
 [2019-07-21 01:02:58.2010] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:02:58.2010] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:02:58.2010] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:02:58.2010] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:02:58.2010] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
+ INFO - Proxy Config: none
+[2019-07-21 01:02:58.2000] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
+[2019-07-21 01:02:58.2000] - ERROR -     at Object.openSync (fs.js:436:3)
+[2019-07-21 01:02:58.2010] - ERROR -     at Object.readFileSync (fs.js:341:35)
+[2019-07-21 01:02:58.2010] - ERROR -     at getBuiltScript (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1410:19)
+[2019-07-21 01:02:58.2010] - ERROR -     at readCachedBuildOutput (/Applications/Framer X.app/Contents/Resources/Server/lib/project.js:1398:21)
 nfig: none
 [2019-07-21 01:02:58.2000] - ERROR - Cannot read script index.js { Error: ENOENT: no such file or directory, open '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js'
 [2019-07-21 01:02:58.2000] - ERROR -     at Object.openSync (fs.js:436:3)
@@ -697,3 +709,55 @@ nfig: none
 [2019-07-21 01:03:50.6550] - ERROR -   code: 'ENOENT',
 [2019-07-21 01:03:50.6550] - ERROR -   path:
 [2019-07-21 01:03:50.6560] - ERROR -    '/Users/baikong/Library/CloudStorage/iCloud Drive/Documents/Framer-X/TmallComponent.framerfx/build/index.js' }
+
+[2019-10-02 15:13:33.4990] - INFO - Reading from /Users/baikong/Development/Framer-X/TMcomponent.framerfx (origin); preserving existing contents of project folder: true
+[2019-10-02 15:13:33.5000] - INFO - Done reading
+[2019-10-02 15:13:33.5000] - INFO - Marking changed: false
+[2019-10-02 15:13:33.7910] - INFO - Proxy Config: none
+[2019-10-02 15:13:34.0880] - INFO - Project server PID: 1083
+[2019-10-02 15:13:34.5440] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (3ms)
+[2019-10-02 15:13:36.6500] - ERROR - Wed, 02 Oct 2019 07:13:36 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer X.app/Contents/Resources/Server/lib/server.js:119:17
+
+[2019-10-02 15:49:08.8240] - INFO - Reading from /Users/baikong/Development/Framer-X/TMcomponent.framerfx (origin); preserving existing contents of project folder: true
+[2019-10-02 15:49:08.8250] - INFO - Done reading
+[2019-10-02 15:49:08.8250] - INFO - Marking changed: false
+[2019-10-02 15:49:09.0820] - INFO - Proxy Config: none
+[2019-10-02 15:49:09.3450] - INFO - Project server PID: 3587
+[2019-10-02 15:49:09.7500] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (2ms)
+[2019-10-02 15:49:11.8360] - ERROR - Wed, 02 Oct 2019 07:49:11 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer X.app/Contents/Resources/Server/lib/server.js:119:17
+
+[2019-10-02 15:49:32.8960] - INFO - Reading from /Users/baikong/Development/Framer-X/TMcomponent.framerfx (origin); preserving existing contents of project folder: true
+[2019-10-02 15:49:32.8980] - INFO - Done reading
+[2019-10-02 15:49:32.8980] - INFO - Marking changed: false
+[2019-10-02 15:49:33.1720] - INFO - Proxy Config: none
+[2019-10-02 15:49:33.4380] - INFO - Project server PID: 3619
+[2019-10-02 15:49:33.8630] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (3ms)
+[2019-10-02 15:49:35.9340] - ERROR - Wed, 02 Oct 2019 07:49:35 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer X.app/Contents/Resources/Server/lib/server.js:119:17
+[2019-10-02 15:49:36.7730] - INFO - GET 404 /metadata/icon.png?1570002575271 156 B (1ms)
+[2019-10-02 15:49:36.7860] - INFO - GET 404 /metadata/artwork.png?1570002575271 159 B (1ms)
+[2019-10-02 15:49:41.0790] - INFO - Installing dependencies...
+[2019-10-02 15:49:41.2090] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-10-02 15:49:41.6480] - INFO - Installing dependencies - DONE. Took 570ms
+[2019-10-02 15:49:43.2020] - INFO - Marking changed: false
+[2019-10-02 15:49:43.2750] - INFO - _handleWatch: build took 92ms
+[2019-10-02 15:49:43.2770] - INFO - _handleWatch: updated scripts - index.js
+[2019-10-02 15:50:05.7570] - INFO - _handleWatch: build took 27ms
+[2019-10-02 15:50:32.9170] - INFO - Backing up to /Users/baikong/Development/Framer-X/TMcomponent.framerfx/.backups/2019-10-02 15.50.32.zip
+[2019-10-02 15:51:12.8520] - INFO - _handleWatch: build took 46ms
+[2019-10-02 15:51:12.8530] - INFO - _handleWatch: updated scripts - index.js,vendors.js
+[2019-10-02 15:51:12.9780] - INFO - _handleWatch: build took 23ms
+[2019-10-02 15:51:12.9790] - INFO - _handleWatch: updated scripts - index.js
+[2019-10-02 15:51:13.9500] - INFO - GET 404 /node_modules/@framer/baikong.tmall-icons/metadata/icon.png 197 B (2ms)
+[2019-10-02 15:51:33.5420] - INFO - GET 404 /node_modules/@framer/baikong.tmall-icons/metadata/icon.png 197 B (0ms)
+[2019-10-02 15:52:23.6930] - INFO - _handleWatch: build took 19ms
+[2019-10-02 15:52:23.6940] - INFO - _handleWatch: updated scripts - index.js
+[2019-10-02 15:52:45.0010] - INFO - GET 404 /metadata/icon.png?1570002743360 156 B (1ms)
+[2019-10-02 15:52:45.0010] - INFO - GET 404 /metadata/artwork.png?1570002743360 159 B (1ms)
+[2019-10-02 15:52:52.0760] - INFO - _handleWatch: build took 14ms
+[2019-10-02 15:52:52.0760] - INFO - _handleWatch: updated scripts - index.js
+[2019-10-02 15:52:52.8620] - INFO - GET 404 /metadata/icon.png?1570002771926 156 B (1ms)
+[2019-10-02 15:52:52.8630] - INFO - GET 404 /metadata/artwork.png?1570002771926 159 B (1ms)
+[2019-10-02 15:52:53.0010] - INFO - _handleWatch: build took 15ms
+[2019-10-02 15:52:53.0020] - INFO - _handleWatch: updated scripts - index.js
+[2019-10-02 15:52:53.7660] - INFO - GET 404 /metadata/icon.png?1570002772845 156 B (1ms)
+[2019-10-02 15:52:53.7670] - INFO - GET 404 /metadata/artwork.png?1570002772845 159 B (1ms)

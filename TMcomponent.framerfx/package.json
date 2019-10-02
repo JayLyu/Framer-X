@@ -1,6 +1,13 @@
 {
 	"framer": {
-		"id": "d421b6e8-2325-4f5d-9139-ec30719ffb3a"
+		"id": "015720bf-8d31-4249-a8a2-b8dd1040703f",
+		"displayName": "TM Components"
 	},
-	"author": "Lyu Jie"
+	"peerDependencies": {
+		"framer": "^1"
+	},
+	"name": "@framer/baikong.tmall-icons",
+	"version": "1.4.0",
+	"author": "Lyu Jie",
+	"dependencies": {}
 }
